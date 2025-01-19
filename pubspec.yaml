@@ -1,0 +1,66 @@
+name: flutter_clean_architecture_cubit_template
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  dio: ^5.7.0
+  equatable: ^2.0.5
+  json_annotation: ^4.9.0
+  json_serializable: ^6.8.0
+  dartz: ^0.10.1
+  get_it: ^8.0.0
+  hive: ^2.2.3
+  path_provider: ^2.1.4
+  http: ^1.2.2
+  auto_size_text: ^3.0.0
+  flutter_svg: ^2.0.10+1
+  flutter_bloc: ^8.1.6
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+    - assets/svg/
+    - assets/font/
+    - assets/launcher/
+    - assets/html/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins-Thin.otf
+          weight: 100
+        - asset: assets/font/Poppins-ExtraLight.otf
+          weight: 200
+        - asset: assets/font/Poppins-Light.otf
+          weight: 300
+        - asset: assets/font/Poppins-Regular.otf
+          weight: 400
+        - asset: assets/font/Poppins-Medium.otf
+          weight: 500
+        - asset: assets/font/Poppins-SemiBold.otf
+          weight: 600
+        - asset: assets/font/Poppins-Bold.otf
+          weight: 700
+        - asset: assets/font/Poppins-ExtraBold.otf
+          weight: 800
+        - asset: assets/font/Poppins-Black.otf
+          weight: 900
